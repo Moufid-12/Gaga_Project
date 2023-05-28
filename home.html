@@ -11,7 +11,16 @@
     <title>Gestion des votes</title>
 </head>
 <body>
-    <img src="Vote.png" alt="" style="width: 20%;">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="Vote.png" alt="" style="width: 20%;float: left;">
+        </div>
+        <div class="col-md-6">
+            <img src="democartes.png" alt="" class="benin" style="width: 30%; float: right;">
+        </div>
+    </div>
+    <h1 class="h1 text-center">République du Bénin</h1>
+    <h1 class="h1 text-center">****** </h1>
 <h1 class="h1 text-center">Commission Electorale Nationale autonome Election presidentielle </h1>
   <div class="main-content">
     <div class="container mt-7">
@@ -39,10 +48,10 @@
                     <th scope="row">
                       <div class="media align-items-center">
                         <a href="#" class="avatar rounded-circle mr-3">
-                          <img alt="Image placeholder" src="progressive.png">
+                          <img alt="Image placeholder" src="m.jpg">
                         </a>
                         <div class="media-body">
-                          <span class="mb-0 text-sm">Union Progressive</span>
+                          <span class="mb-0 text-sm">ADO</span>
                         </div>
                       </div>
                     </th>
@@ -66,10 +75,10 @@
                     <th scope="row">
                       <div class="media align-items-center">
                         <a href="#" class="avatar rounded-circle mr-3">
-                          <img alt="Image placeholder" src="bloc.png">
+                          <img alt="Image placeholder" src="progressive.png">
                         </a>
                         <div class="media-body">
-                          <span class="mb-0 text-sm">Bloc Républicain</span>
+                          <span class="mb-0 text-sm">UNI</span>
                         </div>
                       </div>
                     </th>
@@ -93,10 +102,10 @@
                     <th scope="row">
                       <div class="media align-items-center">
                         <a href="#" class="avatar rounded-circle mr-3">
-                          <img alt="Image placeholder" src="democartes.png">
+                          <img alt="Image placeholder" src="bloc.png">
                         </a>
                         <div class="media-body">
-                          <span class="mb-0 text-sm">Les democrates</span>
+                          <span class="mb-0 text-sm">APC</span>
                         </div>
                       </div>
                     </th>
@@ -137,6 +146,7 @@
             .ti h2 span{
                 font-size: 25px;
             }
+          
         </style>
         <div class="ti">
             <h2><b>Nombre de d'inscrits:</b>  <span> 10</span></h2>
@@ -259,6 +269,10 @@ h3,
    .ti{
     padding-left: 20px;
    }
+   .row .benin {
+        margin-top: -4em;
+        display: block;
+    }
 }
 
 @media (min-width: 576px) {
@@ -283,6 +297,10 @@ h3,
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
+    }
+    .row .benin {
+        display: none;
+        margin-top: 0em;
     }
 }
 
